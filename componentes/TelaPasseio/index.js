@@ -3,7 +3,7 @@ import {Text, View, Image, Button } from 'react-native';
 import styles from './style';
 
 import brennand from '..//..//assets/imagens/brennand.jpg'
-import catamaran from '..//..//assets/imagens/catamaran.jpg'
+import catamaran from '..//..//assets/imagens/catamararecife.jpg'
 import marcozero from '..//..//assets/imagens/marcozero.jpg'
 
 export default function App(props) {
@@ -21,7 +21,7 @@ export default function App(props) {
       </View>
 
       <View style={styles.card}>
-      <Text style={styles.titulocard}>Catamarãn Tours</Text>
+      <Text style={styles.titulocard}>Catamaran Tours</Text>
       <Image source={catamaran} style={styles.img}/>
       </View>
 
