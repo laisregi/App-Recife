@@ -6,6 +6,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import TelaInicial from './componentes/TelaInicial'
 import TelaRestaurante from './componentes/TelaRestaurante'
 import TelaHospedagens from './componentes/TelaHospedagem'
+import TelaPasseios from './componentes/TelaPasseio'
 
 const Telas = createStackNavigator();
 
@@ -16,6 +17,7 @@ export default function App() {
         <Telas.Screen component={TelaInicial} name='Tela Inicial'/>
         <Telas.Screen component={TelaRestaurante} name='Restaurantes'/>
         <Telas.Screen component={TelaHospedagens} name='Hospedagem'/>
+        <Telas.Screen component={TelaPasseios} name='Passeios'/>
       </Telas.Navigator>
     </NavigationContainer>
   );
